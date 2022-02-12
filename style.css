@@ -1,55 +1,73 @@
 body {
-    content: "";
     overflow-y: hidden;
     overflow-x: hidden;
     max-height: 100%;
     max-width: 100%;
 }
-.right-top {
-    content: "";
+.room {
+    max-width: 100%;
+    max-height: 100%;
+    min-width: none;
+    min-height: none;
+    margin: auto;
+    display: block;
+}
+.left-top {
+    min-width: 10px;
+    min-height: 10px;
+    content:"";
     max-width: 100%;
     position: absolute;
     left: -9.5%;
-    top: -365px;
+    top: -58.5%;
     height: 79.85%;
     width: 75.4%;
     box-shadow:-10px 0 10px;
     transform: skewX(50deg);
+    margin-right: 30%;
 }
-.left-top {
-    content: "";
+.right-top {
+    min-width: 10px;
+    min-height: 10px;
+    content:"";
     max-width: 100%;
     position: absolute;
     right: -9.5%;
-    top: -365px;
+    top: -58.5%;
     height: 79.85%;
     width: 75.4%;
     box-shadow: 10px 0 10px;
     transform: skewX(-50deg);
 }
 .left-bottom {
+    min-width: 10px;
+    min-height: 10px;
     content: "";
     max-width: 100%;
     position: absolute;
     left: -9.5%;
-    bottom: -365px;
+    bottom: -58.5%;
     height: 79.85%;
     width: 75.4%;
     box-shadow:-10px 0 10px;
     transform: skewX(-50deg);  
 }
 .right-bottom {
+    min-width: 10px;
+    min-height: 10px;
     content: "";
     max-width: 100%;
     position: absolute;
     right: -9.5%;
-    bottom: -365px;
+    bottom: -58.5%;
     height: 79.85%;
     width: 75.4%;
     box-shadow: 10px 0 10px;
     transform: skewX(50deg);
 }
 .center {
+    min-width: none;
+    min-height: none;
     content: "";
     max-width: 100%;
     position: absolute;
@@ -59,9 +77,5 @@ body {
     width: 75.1%;
     box-shadow: -10px 0 10px, 10px 0 10px;
 }
-ul {
-    list-style-type: none;
-}
-div { 
-    float: left;
-}
+@media (min-width: 800,)
+
